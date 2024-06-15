@@ -7,11 +7,15 @@ import icon02 from "../assets/images/icon2.png";
 import icon03 from "../assets/images/icon3.png";
 import videoIcon from "../assets/images/video-icon.png";
 import featureImg from "../assets/images/feature-img.jpg";
+import faqImg from '../assets/images/faq-img.png';
 import avatarIcon from "../assets/images/avatar-img.png";
 import {Link} from 'react-router-dom';
 import {BsArrowRight} from 'react-icons/bs';
 import About from '../components/About/About';
 import ServiceList from '../components/Services/ServiceList';
+import ProfessionalList from '../components/Professional/ProfessionalList';
+import FaqList from '../components/Faq/FaqList';
+import Testimonial from '../components/Testimonial/Testimonial';
 
 const Home = () => {
   return <>
@@ -237,7 +241,54 @@ const Home = () => {
   </div>
 </section>
 {/* ============ feature section end ============== */}
+{/* ============ Our Professionals ============== */}
 
+<section>
+  <div className='container'>
+    <div className='xl:w-[470px] mx-auto'>
+      <h2 className='heading text-center'>Our Awesome Professionals</h2>
+      <p className='text_para text-center'>
+        Genuine home care services for everyone. Our extensive system offers unmatched,flawless,smooth services.
+      </p>
+    </div>
+    <ProfessionalList />
+  </div>
+</section>
+{/* ============ Our Professionals ============== */}
+{/* ============ faq section start ================= */}
+<section>
+  <div className='container'>
+    <div className='flex justify-between gap-[50px] lg:gap-0'>
+      <div className='w-1/2 hidden md:block'>
+      <img src={faqImg} alt="" className='h-[700px]' />
+      </div>
+      <div className='w-full md:w-1/2'>
+      <h2 className='heading'>
+        Most Questions by our beloved customers
+        </h2>
+        <FaqList />
+        </div>
+    </div>
+  </div>
+</section>
+{/* ============ faq section end ================= */}
+
+{/* ============ testimonial start ================= */}
+
+<section>
+  <div className='container'>
+    <div className='xl:w-[470px] mx-auto'>
+      <h2 className='heading text-center'>
+        What do our customers say?
+      </h2>
+      <p className='text_para text-center'>
+        World-class service for everyone.Our extensive system offers unmatched,expert,and smooth services.
+      </p>
+    </div>
+    <Testimonial />
+  </div>
+</section>
+{/* ============ testimonial end ================= */}
    </>
 }
 
