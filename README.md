@@ -62,3 +62,7 @@
 
 5. **Visit the application:**
     Open your browser and go to `http://localhost:3000`
+
+   ## License
+
+   This project is licensed under the MIT License.
