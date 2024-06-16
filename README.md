@@ -63,6 +63,15 @@
 5. **Visit the application:**
     Open your browser and go to `http://localhost:3000`
 
-   ## License
+## License
 
    This project is licensed under the MIT License.
+   [LICENSE](https://github.com/RIO-Repository/Fix-Up/blob/main/LICENSE) file for details.
+   
+## Our Contributors ✌️
+
+<a href="https://github.com/RIO-Repository/Fix-Up/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=RIO-Repository/Fix-Up" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
