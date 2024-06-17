@@ -10,8 +10,8 @@ const navLinks = [
   display:'Home'
 },
 {
-  path:'/electricians',
-  display:'Find an Professional'
+  path:'/professionals',
+  display:'Find a Professional'
 },
 {
   path:'/services',
@@ -19,7 +19,7 @@ const navLinks = [
 },
 {
   path:'/contact',
-  display:'Contact'
+  display:'Contact Us'
 }
 ]
 const Header = () => {
