@@ -16,7 +16,7 @@ const Contact = () => {
             <input 
             type="email"
             id="email"
-            placeholder="example123@gamil.com"
+            placeholder="example123@gmail.com"
             className='form_input mt-1'></input>
           </div>
           <div>
